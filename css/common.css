@@ -23,7 +23,10 @@ button {
   cursor: pointer;
 }
 
+/* task_3-------- */
+
 .gallery {
   display: flex;
-  box-shadow: #212121 0px 1px 0px 0px;
+  list-style: none;
+  width: 1260px;
 }
