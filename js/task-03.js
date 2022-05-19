@@ -31,11 +31,11 @@ const images = [
 const galleryRef = document.querySelector(".gallery");
 console.log(galleryRef);
 
-const markup = images
+const galleryEl = images
   .map(
     ({ url, alt }) =>
       `<li class="gallery__item"><img class="gallery__img" src="${url}" alt="${alt}" /></li>`
   )
   .join("");
 
-galleryRef.insertAdjacentHTML("beforeend", markup);
+galleryRef.insertAdjacentHTML("beforeend", galleryEl);
